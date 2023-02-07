@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio|Edson Gabryel</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,400;1,800&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -28,7 +32,7 @@
             <button class="about__hire">me contrate, agora!</button>
         </section>
         <section class="skills" id="skills">
-            <h2 class="skills__title"></h2>
+            <h2 class="skills__title"> Hard Skills</h2>
             <div class="skills__technologies">
                 <img src="./assets/img/html.png" alt="icone HTML" class="skills__img">
                 <img src="./assets/img/css3.png" alt="icone CSS3" class="skills__img">
@@ -36,63 +40,102 @@
             </div>
         </section>
         <section class="projects" id="projects">
-            <h2 class="projects__title">
-                <div class="project__card">
-                    <img src="" alt="" class="project__card-img">
-                    <h3 class="project__card-title"><a href="" class="project__card-link"></a></h3>
-                    </img>
+
+            <h2 class="projects__title"> Projetos </h2>
+
+            <article class="project__card">
+                <img src="./assets/img/lista_viagem.jpg" alt=" Screenshot do projeto lista de viagem"
+                    class="project__card-img">
+                <h3 class="project__card-title">Lista viagem</h3>
+                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                        class="project__card-btn-img" alt="">
+                    <div class="project__container-link desabled">
+                        <p class="project__description">
+                            Projeto desenvolvido principalmente para assimilar os comandos
+                            de localstorage e como usá-los em conjunto com o DOM. </p>
+                        <a href="https://edsoncampanhao.github.io/lista-de-viagem/" class="project__card-link"> Acesse o
+                            projeto!</a>
+                    </div>
                 </div>
-                <div class="project__card">
-                    <img src="" alt="" class="project__card-img">
-                    <h3 class="project__card-title"><a href="" class="project__card-link"></a></h3>
-                    </img>
+            </article>
+            <article class="project__card">
+                <img src="./assets/img/alura_book.jpg" alt="Screenshot do projeto AluraBook" class="project__card-img">
+                <h3 class="project__card-title"> AluraBook</h3>
+
+                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                        class="project__card-btn-img" alt="">
+                    <div class="project__container-link desabled">
+                        <p class="project__description">
+                            Projeto voltado para incentivar utilização de api's externas em um curso da Alura e criar um
+                            layout de site de um e-comerce
+                        </p>
+                        <a href="" class="project__card-link"></a>
+                    </div>
                 </div>
-                <div class="project__card">
-                    <img src="" alt="" class="project__card-img">
-                    <h3 class="project__card-title"><a href="" class="project__card-link"></a></h3>
-                    </img>
+
+            </article>
+            <article class="project__card">
+                <img src="./assets/img/alura_geek.jpg" alt="Screenshot do projeto alura_geek" class="project__card-img">
+                <h3 class="project__card-title">alura_geek</h3>
+
+                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                        class="project__card-btn-img" alt="">
+                    <div class="project__container-link desabled">
+                        <p class="project__description">
+                            Projeto realizado em um desáfio de coode together com a comunidade da Alura.
+                        </p>
+                        <a href="https://edsoncampanhao.github.io/AluraGeek-challenge/"
+                            class="project__card-link">Acesse o projeto!</a>
+                    </div>
                 </div>
-            </h2>
+
+            </article>
+
+            <div class="project__github">
+                <h3 class="project__github-title"> Mais projetos em meu github </h3>
+                <a href="" class="project__github-link">
+                    <img src="./assets/img/icon/github-svgrepo-com 1.png" alt="" class="project__github-icon">
+                </a>
+
+            </div>
+
         </section>
         <footer>
+
             <section class="contact" id="contact">
                 <form action="submit" class="contact__form">
                     <h2 class="contact__title"></h2>
-                    <img src="" alt="" class="contact__img">
-                    <input type="text" name="" id="" class="contact__email">
-                    <textarea name="" id="" cols="30" rows="10" class="contact__mensage"></textarea>
-                    <button type="submit" class="contact__btn">Send mensage</button>
+                    <img src="./assets/img/contact.png" alt="Imagem ilustrativa de um celular " class="contact__img">
+                    <input type="text" id="" class="contact__email" placeholder="Enter email address">
+                    <textarea name="" id="" cols="30" rows="10" class="contact__mensage"
+                        placeholder="Enter message"></textarea>
+                    <button type="submit" class="contact__btn">Send mensage <img
+                            src="./assets/img/icon/paper plane 1.png" alt="icone Send"></button>
                 </form>
             </section>
 
             <section class="social">
-                <h2 class="social__title"></h2>
+                <h2 class="social__title"> Minhas redes sociais</h2>
                 <ul class="social__list">
                     <li class="social__item">
                         <a href="" class="social__link">
-                            <img src="" alt="" class="social__icon">
+                            <img src="./assets/img/icon/linkedin-svgrepo-com 1.svg" alt="icone Linkedin"
+                                class="social__icon">
                         </a>
                     </li>
                     <li class="social__item">
                         <a href="" class="social__link">
-                            <img src="" alt="" class="social__icon">
+                            <img src="./assets/img/icon/whatsapp-svgrepo-com 1.svg" alt="Icone wpp"
+                                class="social__icon">
                         </a>
                     </li>
+
                     <li class="social__item">
                         <a href="" class="social__link">
-                            <img src="" alt="" class="social__icon">
+                            <img src="./assets/img/icon/gmail-svgrepo-com 1.svg" alt="icone gmail" class="social__icon">
                         </a>
                     </li>
-                    <li class="social__item">
-                        <a href="" class="social__link">
-                            <img src="" alt="" class="social__icon">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="" class="social__link">
-                            <img src="" alt="" class="social__icon">
-                        </a>
-                    </li>
+
                 </ul>
             </section>
         </footer>

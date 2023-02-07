@@ -1,0 +1,14 @@
+:root{
+    --battleship-gray:#818D92;
+    --feldgrau:#586A6A;
+    --khaki:#B9A394;
+    --silver:#D4C5C7;
+    --lavander:#DAD4EF;
+}
+*{
+    font-size: 10px;
+    margin: 0;
+    color: var(--battleship-gray
+    );
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
