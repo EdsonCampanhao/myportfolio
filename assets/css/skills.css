@@ -1,0 +1,18 @@
+.skills{
+    background-color: var(--silver);
+    padding-top: 94px;
+    text-align: center;
+}
+.skills__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.skills__technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills__img{
+  width: 95px;
+  height: 76px;  
+}
+    
