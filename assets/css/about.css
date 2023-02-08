@@ -1,8 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 31px;
-    justify-content: center;
+    align-items: center;
     background-color: var(--silver);
 }
 
@@ -15,20 +14,22 @@
 .about__title {
     font-weight: 400;
     font-size: 28px;
-    text-align: start;
+    text-align: center;
     margin-bottom: 12px;
 }
 
 .about__description {
     font-size: 18px;
     font-weight: 300;
-    text-align: start;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .about__hire {
     width: 114px;
     height: 46px;
+    margin:20px ;
+    text-align: center;
     background-color: var(--battleship-gray);
     border-radius: 4px;
     box-shadow: 

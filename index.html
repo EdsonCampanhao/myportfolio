@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio|Edson Gabryel</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,400;1,800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,400;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 
 <body>
     <header>
         <section class="header">
-            <img class='header__logo desabled 'src="./assets/img/dev.png" alt="logo do desenvolvedor ">
+            <img class='header__logo desabled ' src="./assets/img/dev.png" alt="logo do desenvolvedor ">
 
             <img src="./assets/img/icon/menu-svgrepo-com 1.png" alt="icone menu hamburguer" class="header__hamburguer">
             <ul class="header__list desabled">
@@ -38,66 +41,69 @@
         </section>
         <section class="skills" id="skills">
             <h2 class="skills__title"> Hard Skills</h2>
+            <p class="skills__description"> Tecnologias que domino </p>
             <div class="skills__technologies">
                 <img src="./assets/img/html-5-logo-svgrepo-com 2.png" alt="icone HTML" class="skills__img">
                 <img src="./assets/img/css3-logo-svgrepo-com 2.png" alt="icone CSS3" class="skills__img">
-                <img src="./assets/img/JS-Lo 2.png" alt="icone JavaScript" class="skills__img">
+                <img src="./assets/img/js.png" alt="icone JavaScript" class="skills__img">
             </div>
         </section>
         <section class="projects" id="projects">
 
-            <h2 class="projects__title"> Projetos </h2>
+            <h2 class="projects__title"><img class="project__title-icon" src="./assets/img/icon/engrenagens.png" alt=""> Projetos </h2>
 
             <article class="project__card">
                 <img src="./assets/img/lista_viagem.jpg" alt=" Screenshot do projeto lista de viagem"
                     class="project__card-img">
-                <h3 class="project__card-title">Lista viagem</h3>
-                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
-                        class="project__card-btn-img" alt="">
-                    <div class="project__container-link desabled">
-                        <p class="project__description">
-                            Projeto desenvolvido principalmente para assimilar os comandos
-                            de localstorage e como usá-los em conjunto com o DOM. </p>
-                        <a href="https://edsoncampanhao.github.io/lista-de-viagem/" class="project__card-link"> Acesse o
-                            projeto!</a>
+                <div class="project__info">
+                    <h3 class="project__card-title">Lista viagem</h3>  
+                    <p class="project__description">
+                                Projeto desenvolvido principalmente para assimilar os comandos
+                                de localstorage e como usá-los em conjunto com o DOM. </p>
+                    <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                            class="project__card-btn-img" alt="">
+                        <div class="project__container-link desabled">
+                          
+                            <a href="https://edsoncampanhao.github.io/lista-de-viagem/" class="project__card-link">
+                                Acesse o
+                                projeto!</a>
+                        </div>
                     </div>
                 </div>
             </article>
             <article class="project__card">
                 <img src="./assets/img/alura_book.jpg" alt="Screenshot do projeto AluraBook" class="project__card-img">
-                <h3 class="project__card-title"> AluraBook</h3>
-
-                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
-                        class="project__card-btn-img" alt="">
-                    <div class="project__container-link desabled">
-                        <p class="project__description">
-                            Projeto voltado para incentivar utilização de api's externas em um curso da Alura e criar um
-                            layout de site de um e-comerce
-                        </p>
-                        <a href="" class="project__card-link"></a>
+                <div class="project__info">
+                    <h3 class="project__card-title"> AluraBook</h3>
+                    <p class="project__description">
+                        Projeto voltado para incentivar utilização de api's externas em um curso da Alura e
+                        criar um
+                        layout de site de um e-comerce
+                    </p>
+                    <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                            class="project__card-btn-img" alt="">
                     </div>
                 </div>
 
             </article>
             <article class="project__card">
                 <img src="./assets/img/alura_geek.jpg" alt="Screenshot do projeto alura_geek" class="project__card-img">
-                <h3 class="project__card-title">alura_geek</h3>
+                <div class="project__info">
+                    <h3 class="project__card-title">alura_geek</h3>
+                    <p class="project__description">
+                        Projeto realizado em um desáfio de coode together com a comunidade da Alura.
+                    </p>
 
-                <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
-                        class="project__card-btn-img" alt="">
-                    <div class="project__container-link desabled">
-                        <p class="project__description">
-                            Projeto realizado em um desáfio de coode together com a comunidade da Alura.
-                        </p>
-                        <a href="https://edsoncampanhao.github.io/AluraGeek-challenge/"
-                            class="project__card-link">Acesse o projeto!</a>
+                    <div class="project__card-btn">Learn More <img src="./assets/img/icon/Vector.png"
+                            class="project__card-btn-img" alt="">
+
                     </div>
                 </div>
 
             </article>
 
             <div class="project__github">
-                <h3 class="project__github-title"> Mais projetos em meu github </h3>
+                <h3 class="project__github-title"> Mais projetos em meu github... </h3>
                 <a href="" class="project__github-link">
                     <img src="./assets/img/icon/github-svgrepo-com 1.png" alt="" class="project__github-icon">
                 </a>
