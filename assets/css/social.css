@@ -1,0 +1,21 @@
+.social {
+    background-color: var(--feldgrau);
+
+}
+
+.social__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.social__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+
+}
+.social__link{
+    padding: 10px;
+}
