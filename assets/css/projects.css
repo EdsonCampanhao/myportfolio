@@ -15,7 +15,8 @@
 
 .project__card {
     width: 265px;
-    height: 320px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
 .project__card-img {
@@ -46,6 +47,7 @@
     height: 42px;
     margin: 0 auto;
     display: flex;
+    gap: 8px;
     align-items: center;
     justify-content: center;
     border: 1px solid #fff;

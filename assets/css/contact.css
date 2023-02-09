@@ -13,6 +13,8 @@
     width: 60%;
     color: black;
     border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 1px 2px rgb(128, 126, 126);
     
 }
 .contact__mensage{
@@ -26,7 +28,9 @@
 }
 .contact__btn-p{
     display: flex;
-    align-items: center;
-    color: black;
+    justify-content: center;
+    text-align: center;
+   padding-top: 5px;
+    color: rgb(69, 64, 64);
     font-weight: 700;
 }

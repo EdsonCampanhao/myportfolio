@@ -23,6 +23,7 @@
 .skills__img{
   width: 95px;
   height: 76px;  
+  box-shadow: 0 2px 2px;
 }
 .skills__img:last-child{
     width: 70px;
